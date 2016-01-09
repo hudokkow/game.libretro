@@ -30,7 +30,7 @@
 #include <algorithm>
 
 using namespace LIBRETRO;
-using namespace P8PLATFORM;
+using namespace PLATFORM;
 
 CInputManager& CInputManager::Get(void)
 {
