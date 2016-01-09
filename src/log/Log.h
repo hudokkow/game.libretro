@@ -22,7 +22,7 @@
 
 #include "ILog.h"
 
-#include "p8-platform/threads/mutex.h"
+#include "platform/threads/mutex.h"
 
 #include <string>
 
@@ -70,6 +70,6 @@ namespace LIBRETRO
     ILog*            m_pipe;
     SYS_LOG_LEVEL    m_level;
     std::string      m_strLogPrefix;
-    P8PLATFORM::CMutex m_mutex;
+    PLATFORM::CMutex m_mutex;
   };
 }
